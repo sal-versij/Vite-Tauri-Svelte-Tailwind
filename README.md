@@ -1,14 +1,24 @@
-# Tauri + Svelte + Vite
+# Tauri + Svelte + TailwindCSS + Vite
 
-## Usage
+This template contains all the necessary files to get a new project up and running with Tauri, Svelte, Vite and
+TailwindCSS.
 
-```sh
-# Install dependencies
-$ yarn
+## How to use
 
-# Start Vite dev server for the Svelte app
-$ yarn dev
+To run local development server, run:
 
-# Start Tauri dev process
-$ yarn dev:tauri
+```
+npm run local-dev
+```
+
+To run development build, run:
+
+```
+npm run dev
+```
+
+To build the app for production, run:
+
+```
+npm run build
 ```
